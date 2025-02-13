@@ -1,4 +1,4 @@
-// Navigation 2 - Updated February 12, 2025
+// Navigation 2 - Updated February 13, 2025
 function noop() { }
 const identity = x => x;
 function assign(tar, src) {
@@ -3781,8 +3781,8 @@ function instance($$self, $$props, $$invalidate) {
 	let { props } = $$props;
 	let { cta } = $$props;
 	let { logo } = $$props;
-	let { site_nav } = $$props;
 	let { text } = $$props;
+	let { site_nav } = $$props;
 	let mobileNavOpen = false;
 
 	const click_handler = () => $$invalidate(3, mobileNavOpen = true);
@@ -3792,8 +3792,8 @@ function instance($$self, $$props, $$invalidate) {
 		if ('props' in $$props) $$invalidate(4, props = $$props.props);
 		if ('cta' in $$props) $$invalidate(0, cta = $$props.cta);
 		if ('logo' in $$props) $$invalidate(1, logo = $$props.logo);
-		if ('site_nav' in $$props) $$invalidate(2, site_nav = $$props.site_nav);
 		if ('text' in $$props) $$invalidate(5, text = $$props.text);
+		if ('site_nav' in $$props) $$invalidate(2, site_nav = $$props.site_nav);
 	};
 
 	return [
@@ -3816,8 +3816,8 @@ class Component extends SvelteComponent {
 			props: 4,
 			cta: 0,
 			logo: 1,
-			site_nav: 2,
-			text: 5
+			text: 5,
+			site_nav: 2
 		});
 	}
 }
