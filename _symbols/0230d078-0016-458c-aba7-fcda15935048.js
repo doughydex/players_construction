@@ -1153,7 +1153,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (79:8) {#if teaser.image.url}
+// (80:8) {#if teaser.image.url}
 function create_if_block_1(ctx) {
 	let img;
 	let img_src_value;
@@ -1191,7 +1191,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (85:10) {#if teaser.link.url}
+// (86:10) {#if teaser.link.url}
 function create_if_block(ctx) {
 	let a;
 	let t_value = /*teaser*/ ctx[2].link.label + "";
@@ -1232,7 +1232,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (77:4) {#each teasers as teaser}
+// (78:4) {#each teasers as teaser}
 function create_each_block(ctx) {
 	let div2;
 	let t0;
